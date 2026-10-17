@@ -41,7 +41,6 @@ class ResultsScreen extends StatelessWidget {
       child: Container(
         margin: const EdgeInsets.all(40),
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text(
               'Správne odpovede: $numCorrectQuestions z $numTotalQuestions',
