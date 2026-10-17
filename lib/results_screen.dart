@@ -53,7 +53,7 @@ class ResultsScreen extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 30),
-            QuestionsSummary(summaryData),
+            Expanded(child: QuestionsSummary(summaryData)),
             const SizedBox(height: 30),
             TextButton.icon(
               onPressed: onRestart,
