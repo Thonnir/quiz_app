@@ -1,17 +1,8 @@
 # quiz_app
 
-Seminár 4 – Zadanie 1c: Quiz App.
+Seminár 4 – Zadanie 1c. A Warcraft lore quiz: tap **Začať kvíz**, answer 8 questions (answers are shuffled, the app moves on after each pick), then review the scored summary and restart.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+flutter run      # on a running Android emulator
+flutter test
+```
